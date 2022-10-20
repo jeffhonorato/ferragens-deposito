@@ -1,0 +1,104 @@
+.promocao {
+    background-image: url("../img/background-section.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 4rem;
+
+        .promo__titulo {
+            @include titulo-section;
+            box-shadow: 1px 4px 8px 1px #fff;
+            
+
+                @include mobile {
+                    gap: 1rem;
+                }
+
+                @include tablet {
+                    gap: 2rem;
+                }
+        }
+
+        .img__titulo {
+            width: 12.5rem;
+
+                @include mobile {
+                    width: 8rem;
+                }
+
+                @include tablet {
+                    width: 10rem;
+                }
+        }
+
+        .titulo {
+            color: #fff;
+            font-size: 3rem;
+            font-family: $fonte-titulo;
+
+                @include mobile {
+                    font-size: 1.5rem;
+                }
+
+                @include tablet {
+                    font-size: 2rem;
+                }
+        }
+
+        .card__itens {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3rem;
+            
+        }
+
+        .card {
+            @include card-config;
+            position: relative;
+        }
+
+        .card__etiqueta__promo {
+            background-color: $cor-botoes;
+            font-family: $fonte-corpo;
+            position: absolute;
+            top: 0;
+            left: -15px;
+            padding: .5rem;
+            width: 100px;
+            color: #fff;
+            border-radius: 4px;
+            border: 1px solid #000;
+            transform: rotateZ(-25deg);
+            text-transform: uppercase;
+        }
+
+        .card__img {
+            width: 180px;
+        }
+
+        .card__desc {
+            font-family: $fonte-titulo;
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card__peso {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card__preco {
+            font-family: $fonte-titulo;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            // @include card-preco;
+        }
+
+        .preco__strong {
+            @include card-preco;
+        }
+}
