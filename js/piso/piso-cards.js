@@ -83,10 +83,12 @@ const pisoCard7 = () => {
 };
 
 const pisoCard8 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-8");
+    const pisoCores8 = document.querySelectorAll(".js-img-cor-piso-8");
     const pisoGrande = document.querySelector(".js-piso-img-card-8");
 
-    pisoCores.forEach((cor) => {
+    console.log(pisoCores8);
+
+    pisoCores8.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
             e.stopPropagation();
