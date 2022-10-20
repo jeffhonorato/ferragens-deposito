@@ -1,8 +1,8 @@
 .alimentos {
-    background-image: url("../img/background-section.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    // background-image: url("../img/background-section.png");
+    // background-position: center;
+    // background-repeat: no-repeat;
+    // background-size: cover;
 
     .js-conteudo-alimentos {
         display: none;
@@ -64,8 +64,8 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 2rem;
-            background-color: $cor-header;
+            gap: 1rem;
+            // background-color: $cor-header;
             padding: 2rem 0rem;
 
                 @include mobile {
