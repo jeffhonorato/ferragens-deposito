@@ -83,6 +83,10 @@
             
         }
 
+        .linha-divisoria {
+            margin-bottom: 1rem;
+        }
+
         .card__preco--box {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -90,7 +94,7 @@
         }
 
         .card__preco {
-            font-family: $fonte-titulo;
+            font-family: $fonte-corpo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
             // @include card-preco;
