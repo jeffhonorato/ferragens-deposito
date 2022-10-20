@@ -5,7 +5,7 @@ const pisoCard1 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -17,7 +17,7 @@ const pisoCard2 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -29,7 +29,7 @@ const pisoCard3 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -41,7 +41,7 @@ const pisoCard4 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -53,7 +53,7 @@ const pisoCard5 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -65,7 +65,7 @@ const pisoCard6 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -77,7 +77,7 @@ const pisoCard7 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -89,7 +89,7 @@ const pisoCard8 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -101,7 +101,7 @@ const pisoCard9 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
@@ -113,7 +113,7 @@ const pisoCard10 = () => {
     pisoCores.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
-            e.preventDefault();
+            e.stopPropagation();
         });
     });
 };
