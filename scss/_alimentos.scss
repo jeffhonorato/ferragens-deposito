@@ -178,8 +178,12 @@
         .piso__strong strong {
             font-family: $fonte-corpo;
             font-size: 2rem;
-           
-            
+        }
+
+        .piso__juros {
+            padding-bottom: .5rem;
+            font-family: $fonte-corpo;
+            font-weight: 100;
         }
 
         .piso__link--box {
@@ -398,7 +402,7 @@
             background-position: center;
             background-size: cover;
             width: 300px;
-            height: 400px;
+            height: 460px;
           }
 
         //   .swiper-pagination {

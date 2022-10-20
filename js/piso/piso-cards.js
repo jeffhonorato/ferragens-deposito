@@ -31,6 +31,30 @@ const pisoCard3 = () => {
     });
 };
 
+const pisoCard4 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-4");
+    const pisoGrande = document.querySelector(".js-piso-img-card-4");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", () => {
+            pisoGrande.src = cor.src;
+        });
+    });
+};
+
+const pisoCard5 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-5");
+    const pisoGrande = document.querySelector(".js-piso-img-card-5");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", () => {
+            pisoGrande.src = cor.src;
+        });
+    });
+};
+
 pisoCard1();
 pisoCard2();
 pisoCard3();
+pisoCard4();
+pisoCard5();
