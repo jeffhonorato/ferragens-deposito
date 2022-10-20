@@ -27,10 +27,10 @@
             position: relative;
             display: flex;
             align-items: flex-start;
-            background-color: $cor-menu-mobile;
+            // background-color: $cor-botoes;
             padding: 2px 6px;
             border-radius: 6px;
-            border: 2px solid #000;
+            // border: 2px solid #000;
             margin-top: 1.5rem;
 
             @include mobile {
@@ -50,12 +50,7 @@
 
                 @include mobile {
                     width: 40px;
-                    // padding-bottom: 1rem;
                     background: rgba(0, 0, 0, 0.1);
-                    background-color: $cor-menu-mobile;
-                    // border-radius: 60%;
-                    // display: block;
-                    // margin: 0 auto;
                 }
 
                 @include landscape {
@@ -77,7 +72,7 @@
 
         .nav {
             margin-top: 4rem;
-            background-color: $cor-menu-mobile;
+            background-color: $cor-botoes;
             width: 140%;
             padding: .5rem;
             border-top-right-radius: 6px;
@@ -187,7 +182,7 @@
         }
 
         .nav__icone {
-            color: #000;
+            color: #fff;
             font-size: 1.3rem;
 
             @include mobile {
@@ -205,7 +200,7 @@
         }
 
         .nav__item {
-            color: #000;
+            color: #fff;
             font-family: $fonte-menu;
             font-size: 1.2rem;
 
