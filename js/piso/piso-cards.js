@@ -3,8 +3,9 @@ const pisoCard1 = () => {
     const pisoGrande = document.querySelector(".js-piso-img-card-1");
 
     pisoCores.forEach((cor) => {
-        cor.addEventListener("click", () => {
+        cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
+            e.preventDefault();
         });
     });
 };
@@ -14,8 +15,9 @@ const pisoCard2 = () => {
     const pisoGrande = document.querySelector(".js-piso-img-card-2");
 
     pisoCores.forEach((cor) => {
-        cor.addEventListener("click", () => {
+        cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
+            e.preventDefault();
         });
     });
 };
@@ -25,8 +27,9 @@ const pisoCard3 = () => {
     const pisoGrande = document.querySelector(".js-piso-img-card-3");
 
     pisoCores.forEach((cor) => {
-        cor.addEventListener("click", () => {
+        cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
+            e.preventDefault();
         });
     });
 };
@@ -36,8 +39,9 @@ const pisoCard4 = () => {
     const pisoGrande = document.querySelector(".js-piso-img-card-4");
 
     pisoCores.forEach((cor) => {
-        cor.addEventListener("click", () => {
+        cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
+            e.preventDefault();
         });
     });
 };
@@ -47,8 +51,21 @@ const pisoCard5 = () => {
     const pisoGrande = document.querySelector(".js-piso-img-card-5");
 
     pisoCores.forEach((cor) => {
-        cor.addEventListener("click", () => {
+        cor.addEventListener("click", (e) => {
             pisoGrande.src = cor.src;
+            e.preventDefault();
+        });
+    });
+};
+
+const pisoCard6 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-6");
+    const pisoGrande = document.querySelector(".js-piso-img-card-6");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", (e) => {
+            pisoGrande.src = cor.src;
+            e.preventDefault();
         });
     });
 };
@@ -58,3 +75,4 @@ pisoCard2();
 pisoCard3();
 pisoCard4();
 pisoCard5();
+pisoCard6();
