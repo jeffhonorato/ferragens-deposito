@@ -133,6 +133,13 @@
             width: 40px;
             border-radius: 50%;
             margin-bottom: .5rem;
+            cursor: pointer;
+            border: 1px solid #000;
+
+                &:hover {
+                    transition: all .5s;
+                    border: none
+                }
         }
 
        .piso__desc {
@@ -142,14 +149,69 @@
             font-weight: 100;
         }
 
-        .arroz__peso {
-            font-family: $fonte-titulo;
+        .linha-divisoria {
+            margin: .5rem 0rem;
+        }
+
+        .piso__preco--box {
+            display: grid;
+            grid-template-columns: 1fr;
+            align-items: center;
+
+        }
+
+        .piso__preco {
+            font-family: $fonte-corpo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
         }
 
-        .arroz__preco {
-            @include card-preco;
+        .piso__strong strong {
+            font-family: $fonte-corpo;
+            font-size: 2rem;
+            
+        }
+
+        .piso__link--box {
+            background-color: $cor-botoes;
+            padding: .5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            box-shadow: 1px 1px 5px #000;
+            font-family: $fonte-menu;
+            font-weight: bold;
+            width: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: .3rem;
+            margin: 0 auto;
+            
+
+            &:hover {
+                background-color: #fff;
+                transition: all .5s;
+                color: #000;
+            }
+
+            &:hover .piso__link--ico  {
+                color: #000;
+            }
+
+            &:hover .piso__link  {
+                color: #000;
+            }
+
+
+        }
+
+        .piso__link--ico {
+            color: #fff;
+        }
+
+       .piso__link {
+            color: #fff;
+
         }
 
         /***** SESSÂO FEIJÃO *****/
