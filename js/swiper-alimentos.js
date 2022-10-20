@@ -5,7 +5,7 @@ var swiper = new Swiper(".arrox-box", {
     slidesPerView: "auto",
     loop: true,
     coverflowEffect: {
-      rotate: 40,
+      rotate: 20,
       stretch: 0,
       depth: 100,
       modifier: 6,

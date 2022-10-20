@@ -70,9 +70,38 @@ const pisoCard6 = () => {
     });
 };
 
+const pisoCard7 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-7");
+    const pisoGrande = document.querySelector(".js-piso-img-card-7");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", (e) => {
+            pisoGrande.src = cor.src;
+            e.preventDefault();
+        });
+    });
+};
+
+const pisoCard8 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-8");
+    const pisoGrande = document.querySelector(".js-piso-img-card-8");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", (e) => {
+            pisoGrande.src = cor.src;
+            e.preventDefault();
+        });
+    });
+};
+
+
+
+
 pisoCard1();
 pisoCard2();
 pisoCard3();
 pisoCard4();
 pisoCard5();
 pisoCard6();
+pisoCard7();
+pisoCard8();
