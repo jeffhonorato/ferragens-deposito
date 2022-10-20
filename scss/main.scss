@@ -1,11 +1,11 @@
 /* FONTES - CORES*/
 $cor-header: #6E8898;
-$cor-section1: #778DA9;
+$cor-section1: #E2C044;
 $cor-menu-mobile: #72CAE1;
 $cor-botoes: #CD523B;
 $cor-background: #dfdddd;
 $fonte-menu: 'Coda', cursive;
-$fonte-titulo: 'Russo One', sans-serif;
+$fonte-titulo: 'Suez One', serif;
 $fonte-corpo: 'Urbanist', sans-serif;
 
 /* RESET - CONFIGURAÇÃO */
@@ -38,7 +38,7 @@ ul, li {
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    background-color: $cor-header;
+    background-color: $cor-section1;
     padding: 1rem;
 }
 
@@ -61,7 +61,7 @@ ul, li {
 @mixin card-config {
     text-align: center;
     padding: 1rem;
-    box-shadow: 2px 4px 10px #fff;
+    box-shadow: 2px 4px 10px #000;
     background: rgba(255,255,255,0.15);
     backdrop-filter: blur(40px);
     border-radius: 6px;
@@ -85,10 +85,10 @@ ul, li {
 @mixin card-preco {
     font-family: $fonte-corpo;
     font-weight: bold;
-    background-color: $cor-header;
+    // background-color: $cor-header;
     box-shadow: 2px 4px 10px #000;
     padding: 0.5rem;
-    color: #fff;
+    color: #000;
     border-radius: 4px;
     font-size: 1.4rem;
 }
