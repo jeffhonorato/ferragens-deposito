@@ -29,7 +29,7 @@
             
 
                 @include mobile {
-                    gap: 1rem;
+                    gap: .5rem;
                 }
 
                 @include tablet {
@@ -41,7 +41,7 @@
             width: 12.5rem;
 
                 @include mobile {
-                    width: 8rem;
+                    width: 7rem;
                 }
         }
 
