@@ -80,9 +80,11 @@
         }
 
         .card__desc {
-            font-family: $fonte-titulo;
+            font-family: $fonte-corpo;
             font-size: 1.4rem;
+            font-weight: 100;
             margin-bottom: 0.5rem;
+            
         }
 
         .card__peso {
