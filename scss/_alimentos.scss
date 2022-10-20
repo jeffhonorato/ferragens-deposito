@@ -82,8 +82,7 @@
 
         .menu__item {
             @include btn-section;
-            transform: skewY(2deg);
-            border: 1px solid #000;
+            
 
 
                 @include mobile {
@@ -100,6 +99,7 @@
                     color: #fff;
                     transition: .4s;
                     border: 1px solid #fff;
+                    transform: skewY(0deg);
                 }    
         }
 

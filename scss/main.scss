@@ -52,6 +52,8 @@ ul, li {
     border-radius: 4px;
     box-shadow: 1px 1px 8px 1px #fff;
     cursor: pointer;
+    transform: skewY(2deg);
+    border: 1px solid #000;
 
         &:hover {
             background-color: $cor-menu-mobile;
