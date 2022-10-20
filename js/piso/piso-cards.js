@@ -106,6 +106,18 @@ const pisoCard9 = () => {
     });
 };
 
+const pisoCard10 = () => {
+    const pisoCores = document.querySelectorAll(".js-img-cor-piso-10");
+    const pisoGrande = document.querySelector(".js-piso-img-card-10");
+
+    pisoCores.forEach((cor) => {
+        cor.addEventListener("click", (e) => {
+            pisoGrande.src = cor.src;
+            e.preventDefault();
+        });
+    });
+};
+
 
 
 
@@ -118,3 +130,4 @@ pisoCard6();
 pisoCard7();
 pisoCard8();
 pisoCard9();
+pisoCard10();
