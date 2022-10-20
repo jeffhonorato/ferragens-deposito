@@ -120,6 +120,11 @@
             align-items: center;
         }
 
+        .box {
+            display: grid;
+            justify-content: center
+        }
+
         .piso__item {
             @include card-config;
         }
