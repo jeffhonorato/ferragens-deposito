@@ -104,15 +104,15 @@
         }
 
         /***** SESSÂO ARROZ *****/
-        .arroz__box {
+        .piso__box {
             padding: 3rem 0rem;
         }
 
-        .arroz__titulo {
+        .piso__titulo {
             @include card-titulo;
         }
 
-        .arroz__cards {
+        .piso__cards {
             display: flex;
             flex-wrap: wrap;
             gap: 2rem;
@@ -120,12 +120,18 @@
             align-items: center;
         }
 
-        .arroz__item {
+        .piso__item {
             @include card-config;
         }
 
-        .arroz__img {
+        .piso__img {
             width: 180px;
+            margin-bottom: .5rem;
+        }
+
+        .piso__img--colors {
+            width: 40px;
+            border: 50%;
         }
 
        .arroz__desc {
