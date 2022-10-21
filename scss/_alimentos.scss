@@ -124,6 +124,11 @@
 
         .piso__item {
             @include card-config;
+            background-color: rgba(178, 178, 178, 0.5);
+
+                @include mobile {
+                    background-color: rgb(119, 119, 119);
+                }
         }
 
         .piso__img {

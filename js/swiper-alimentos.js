@@ -2,13 +2,13 @@ var swiper = new Swiper(".arrox-box", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "auto",
+    slidesPerView: "2",
     loop: true,
     coverflowEffect: {
       rotate: 9,
       stretch: 0,
       depth: 100,
-      modifier: 8,
+      modifier: 7,
       slideShadows: false,
     },
     navigation: {
