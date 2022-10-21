@@ -94,6 +94,18 @@ const porcelanatoCard8 = () => {
         });
 };
 
+const porcelanatoCard9 = () => {
+    const porcelaImg9 = document.querySelector(".js-porcelnato-img-card-9");
+    const porceCores9 = document.querySelectorAll(".js-img-cor-porcelanato-9");
+
+        porceCores9.forEach((cor) => {
+            cor.addEventListener("click", (e) => {
+                e.stopPropagation();
+                porcelaImg9.src = cor.src;
+            });
+        });
+};
+
 
 
 porcelanatoCard1();
@@ -104,3 +116,4 @@ porcelanatoCard5();
 porcelanatoCard6();
 porcelanatoCard7();
 porcelanatoCard8();
+porcelanatoCard9();
