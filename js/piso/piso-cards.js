@@ -1,83 +1,83 @@
 const pisoCard1 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-1");
-    const pisoGrande = document.querySelector(".js-piso-img-card-1");
+    const pisoCores1 = document.querySelectorAll(".js-img-cor-piso-1");
+    const pisoGrande1 = document.querySelector(".js-piso-img-card-1");
 
-    pisoCores.forEach((cor) => {
+    pisoCores1.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;            
+            pisoGrande1.src = cor.src;            
         });
     });
 };
 
 const pisoCard2 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-2");
-    const pisoGrande = document.querySelector(".js-piso-img-card-2");
+    const pisoCores2 = document.querySelectorAll(".js-img-cor-piso-2");
+    const pisoGrande2 = document.querySelector(".js-piso-img-card-2");
 
-    pisoCores.forEach((cor) => {
+    pisoCores2.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande2.src = cor.src;
         });
     });
 };
 
 const pisoCard3 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-3");
-    const pisoGrande = document.querySelector(".js-piso-img-card-3");
+    const pisoCores3 = document.querySelectorAll(".js-img-cor-piso-3");
+    const pisoGrande3 = document.querySelector(".js-piso-img-card-3");
 
-    pisoCores.forEach((cor) => {
+    pisoCores3.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;          
+            pisoGrande3.src = cor.src;          
         });
     });
 };
 
 const pisoCard4 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-4");
-    const pisoGrande = document.querySelector(".js-piso-img-card-4");
+    const pisoCores4 = document.querySelectorAll(".js-img-cor-piso-4");
+    const pisoGrande4 = document.querySelector(".js-piso-img-card-4");
 
-    pisoCores.forEach((cor) => {
+    pisoCores4.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande4.src = cor.src;
         });
     });
 };
 
 const pisoCard5 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-5");
-    const pisoGrande = document.querySelector(".js-piso-img-card-5");
+    const pisoCores5 = document.querySelectorAll(".js-img-cor-piso-5");
+    const pisoGrande5 = document.querySelector(".js-piso-img-card-5");
 
-    pisoCores.forEach((cor) => {
+    pisoCores5.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande5.src = cor.src;
         });
     });
 };
 
 const pisoCard6 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-6");
-    const pisoGrande = document.querySelector(".js-piso-img-card-6");
+    const pisoCores6 = document.querySelectorAll(".js-img-cor-piso-6");
+    const pisoGrande6 = document.querySelector(".js-piso-img-card-6");
 
-    pisoCores.forEach((cor) => {
+    pisoCores6.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande6.src = cor.src;
         });
     });
 };
 
 const pisoCard7 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-7");
-    const pisoGrande = document.querySelector(".js-piso-img-card-7");
+    const pisoCores7 = document.querySelectorAll(".js-img-cor-piso-7");
+    const pisoGrande7 = document.querySelector(".js-piso-img-card-7");
 
-    pisoCores.forEach((cor) => {
+    pisoCores7.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande7.src = cor.src;
             
         });
     });
@@ -85,38 +85,40 @@ const pisoCard7 = () => {
 
 const pisoCard8 = () => {
     const pisoCores8 = document.querySelectorAll(".js-img-cor-piso-8");
-    const pisoGrande = document.querySelector(".js-piso-img-card-8");
+    const pisoGrande8 = document.querySelector(".js-piso-img-card-8");
 
-    console.log(pisoCores8);
+   
 
     pisoCores8.forEach((cor) => {
         cor.addEventListener("click", (e)  => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande8.src = cor.src;
         });
     });
 };
 
 const pisoCard9 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-9");
-    const pisoGrande = document.querySelector(".js-piso-img-card-9");
+    const pisoCores9 = document.querySelectorAll(".js-img-cor-piso-9");
+    const pisoGrande9 = document.querySelector(".js-piso-img-card-9");
 
-    pisoCores.forEach((cor) => {
+    pisoCores9.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande9.src = cor.src;
+            console.log(pisoCores9);
         });
     });
 };
 
 const pisoCard10 = () => {
-    const pisoCores = document.querySelectorAll(".js-img-cor-piso-10");
-    const pisoGrande = document.querySelector(".js-piso-img-card-10");
+    const pisoCores10 = document.querySelectorAll(".js-img-cor-piso-10");
+    const pisoGrande10 = document.querySelector(".js-piso-img-card-10");
 
-    pisoCores.forEach((cor) => {
+    pisoCores10.forEach((cor) => {
         cor.addEventListener("click", (e) => {
             e.stopPropagation();
-            pisoGrande.src = cor.src;
+            pisoGrande10.src = cor.src;
+            console.log(pisoCores10);
         });
     });
 };
