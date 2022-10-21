@@ -58,6 +58,30 @@ const porcelanatoCard5 = () => {
         });
 };
 
+const porcelanatoCard6 = () => {
+    const porcelaImg6 = document.querySelector(".js-porcelnato-img-card-6");
+    const porceCores6 = document.querySelectorAll(".js-img-cor-porcelanato-6");
+
+        porceCores6.forEach((cor) => {
+            cor.addEventListener("click", (e) => {
+                e.stopPropagation();
+                porcelaImg6.src = cor.src;
+            });
+        });
+};
+
+const porcelanatoCard7 = () => {
+    const porcelaImg7 = document.querySelector(".js-porcelnato-img-card-7");
+    const porceCores7 = document.querySelectorAll(".js-img-cor-porcelanato-7");
+
+        porceCores7.forEach((cor) => {
+            cor.addEventListener("click", (e) => {
+                e.stopPropagation();
+                porcelaImg7.src = cor.src;
+            });
+        });
+};
+
 
 
 porcelanatoCard1();
@@ -65,3 +89,5 @@ porcelanatoCard2();
 porcelanatoCard3();
 porcelanatoCard4();
 porcelanatoCard5();
+porcelanatoCard6();
+porcelanatoCard7();
