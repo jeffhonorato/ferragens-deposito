@@ -1,4 +1,4 @@
-var swiper = new Swiper(".arrox-box", {
+var swiper = new Swiper(".piso-box-swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
@@ -17,18 +17,18 @@ var swiper = new Swiper(".arrox-box", {
       },
   });
 
-  var swiper = new Swiper(".feijao-box", {
+  var swiper = new Swiper(".porcelanato-box-swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "auto",
+    slidesPerView: "2",
     loop: true,
     coverflowEffect: {
-      rotate: 40,
+      rotate: 9,
       stretch: 0,
       depth: 100,
-      modifier: 1,
-      slideShadows: true,
+      modifier: 7,
+      slideShadows: false,
     },
     navigation: {
         nextEl: ".swiper-button-next",

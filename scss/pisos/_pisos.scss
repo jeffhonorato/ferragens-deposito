@@ -119,16 +119,19 @@
 
         .piso__slider {
             display: grid;
-            justify-content: center
+            justify-content: center;
         }
 
         .piso__item {
+
             @include card-config;
             background-color: rgba(178, 178, 178, 0.5);
 
                 @include mobile {
                     background-color: rgb(197, 197, 197);
                 }
+
+                 
         }
 
         .piso__img {
@@ -167,15 +170,6 @@
 
         }
 
-        .piso__preco {
-            font-family: $fonte-corpo;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        // .piso__strong {
-        //     padding-bottom: .rem;
-        // }
 
         .piso__strong strong {
             font-family: $fonte-corpo;
@@ -230,89 +224,7 @@
 
         }
 
-        /***** SESSÂO FEIJÃO *****/
-        .feijao__box {
-            padding: 3rem 0rem;
-        }
-
-        .feijao__titulo {
-            font-family: $fonte-titulo;
-            text-align: center;
-            margin-bottom: 2rem;
-            font-size: 3rem;
-            text-decoration: underline;
-        }
         
-        .feijao__cards {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .feijao__item {
-            @include card-config;
-        }
-
-        .feijao__img {
-            width: 180px;
-        }
-
-        .feijao__desc {
-            font-family: $fonte-titulo;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .feijao__peso {
-            font-family: $fonte-titulo;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .feijao__preco {
-            @include card-preco;
-        }
-
-        /***** SESSÂO BISCOITOS *****/
-        .biscoito__box {
-            padding: 3rem 0rem;
-        }
-
-        .biscoito__titulo {
-            font-family: $fonte-titulo;
-            text-align: center;
-            margin-bottom: 2rem;
-            font-size: 3rem;
-            text-decoration: underline;
-        }
-
-        .biscoito__cards {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 2rem;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .biscoito__item {
-            @include card-config;
-        }
-
-        .biscoito__img {
-            width: 180px;
-        }
-
-        .biscoito__desc {
-            font-family: $fonte-titulo;
-            font-size: 1.2rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .biscoito__preco {
-            @include card-preco;
-        }
 
         /***** SESSÂO FRUTAS *****/
         .frutas__box {

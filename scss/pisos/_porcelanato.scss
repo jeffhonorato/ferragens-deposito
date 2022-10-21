@@ -1,0 +1,151 @@
+/***** SESSÂO PORCELANATO *****/
+.porcelanato__box {
+    padding: 3rem 0rem;
+}
+
+.porcelanato__titulo {
+    font-family: $fonte-titulo;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.porcelanato__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.porcelanato__slider {
+    display: grid;
+    justify-content: center;
+}
+
+.porcelanato__item {
+    @include card-config;
+}
+
+.porcelanato__img {
+    width: 180px;
+}
+
+.porcelanato__cor {
+    width: 40px;
+    border-radius: 50%;
+    margin-bottom: .5rem;
+    cursor: pointer;
+    border: 1px solid #000;
+
+        &:hover {
+            transition: all .5s;
+            border: none;
+        }
+}
+
+.porcelanato__desc {
+    font-family: $fonte-corpo;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+.linha-divisoria {
+    margin: .5rem 0rem;
+}
+
+.porcelanato__preco--box {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.porcelanato__strong strong {
+    font-family: $fonte-corpo;
+    font-size: 2rem;
+}
+
+.porcelanato__juros {
+    padding-bottom: .5rem;
+    font-family: $fonte-corpo;
+    font-weight: 100;
+}
+
+.porcelanato__link--box {
+    background-color: $cor-botoes;
+    padding: .5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000;
+    font-family: $fonte-menu;
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    margin: 0 auto;
+            
+        &:hover {
+            background-color: #fff;
+            transition: all .5s;
+            color: #000;
+        }
+
+        &:hover .porcelanato__link--ico  {
+            color: #000;
+        }
+
+        &:hover .porcelanato__link  {
+            color: #000;
+        }
+}
+
+.porcelanato__link--ico {
+    color: #fff;
+}
+
+.porcelanato__link {
+    color: #fff;
+}
+
+/***** SESSÂO BISCOITOS *****/
+.biscoito__box {
+    padding: 3rem 0rem;
+}
+
+.biscoito__titulo {
+    font-family: $fonte-titulo;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+.biscoito__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.biscoito__item {
+    @include card-config;
+}
+
+.biscoito__img {
+    width: 180px;
+}
+
+.biscoito__desc {
+    font-family: $fonte-titulo;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.biscoito__preco {
+    @include card-preco;
+}
