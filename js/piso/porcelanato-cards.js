@@ -118,8 +118,6 @@ const porcelanatoCard10 = () => {
         });
 };
 
-
-
 porcelanatoCard1();
 porcelanatoCard2();
 porcelanatoCard3();
