@@ -125,7 +125,6 @@
         }
 
         .piso__item {
-
             @include card-config;       
         }
 
@@ -171,7 +170,6 @@
             align-items: center;
 
         }
-
 
         .piso__strong strong {
             font-family: $fonte-corpo;

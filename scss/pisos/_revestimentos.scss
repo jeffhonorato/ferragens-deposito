@@ -27,16 +27,80 @@
     @include card-config;
 }
 
-.fruta__img {
-    width: 180px;
+.revestimento__img {
+    width: 250px;
+    margin-bottom: .5rem;
 }
 
-.fruta__desc {
-    font-family: $fonte-titulo;
-    font-size: 1.2rem;
+.revestimento__desc {
+    font-family: $fonte-corpo;
+    font-size: 1rem;
     margin-bottom: 0.5rem;
+    font-weight: 100;
 }
 
-.fruta__preco {
-    @include card-preco;
+.revestimento__marca  {
+    font-family: $fonte-corpo;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 100;
+}
+
+.linha-divisoria {
+    margin: .5rem 0rem;
+}
+
+.revestimento__preco--box {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.revestimento__strong strong {
+    font-family: $fonte-corpo;
+    font-size: 2rem;
+}
+
+.revestimento__juros {
+    padding-bottom: .5rem;
+    font-family: $fonte-corpo;
+    font-weight: 100;
+}
+
+.revestimento__link--box {
+    background-color: $cor-botoes;
+    padding: .5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 1px 1px 5px #000;
+    font-family: $fonte-menu;
+    font-weight: bold;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3rem;
+    margin: 0 auto;
+            
+        &:hover {
+            background-color: #fff;
+            transition: all .5s;
+            color: #000;
+        }
+
+        &:hover .revestimento__link--ico  {
+            color: #000;
+        }
+
+        &:hover .revestimento__link  {
+            color: #000;
+        }
+}
+
+.revestimento__link--ico {
+    color: #fff;
+}
+
+.revestimento__link {
+    color: #fff;
 }
