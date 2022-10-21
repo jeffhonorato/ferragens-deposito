@@ -44,14 +44,14 @@ ul, li {
 @mixin btn-section {
     color: #fff;
     font-family: $fonte-titulo;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     background-color: $cor-botoes;
     padding: .5rem;
     border: 1px solid #fff;
     border-radius: 4px;
     box-shadow: 1px 1px 8px 1px #fff;
     cursor: pointer;
-    transform: skewY(2deg);
+    // transform: skewY(2deg);
     border: 1px solid #000;
 
         // &:hover {

@@ -61,11 +61,11 @@
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: .2rem;
+            gap: .1rem;
             padding: 2rem 0rem;
 
                 @include mobile {
-                    gap: .5rem;
+                    gap: .1rem;
                     padding: 2rem 0.5rem;
                 }
 
@@ -80,10 +80,8 @@
         .menu__item {
             @include btn-section;
             
-
-
                 @include mobile {
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                 }
 
                 @include tablet {
