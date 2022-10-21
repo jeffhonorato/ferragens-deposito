@@ -1,6 +1,6 @@
-// SESSÃO TAB ALIMENTOS
-const tabmenu = document.querySelectorAll(".js-menu-alimentos a");
-const tabConteudo = document.querySelectorAll(".alimentos section");
+// SESSÃO TAB PISOS
+const tabmenu = document.querySelectorAll(".js-menu-pisos a");
+const tabConteudo = document.querySelectorAll(".pisos section");
 tabConteudo[0].classList.add("ativo");
 
 
