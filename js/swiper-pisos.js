@@ -36,7 +36,7 @@ var swiper = new Swiper(".piso-box-swiper", {
       },
   });
 
-  var swiper = new Swiper(".biscoito-box", {
+  var swiper = new Swiper(".revestimento-box-swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
