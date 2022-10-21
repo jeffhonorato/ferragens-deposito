@@ -28,8 +28,19 @@
 }
 
 .revestimento__img {
-    width: 250px;
+    width: 230px;
     margin-bottom: .5rem;
+}
+
+.cores__prod--link {
+    font-family: $fonte-corpo;
+    font-size: 1rem;
+    margin: .5rem 0rem;
+    font-weight: 100;
+}
+
+.cores__prod {
+    width: 40px;
 }
 
 .revestimento__desc {
