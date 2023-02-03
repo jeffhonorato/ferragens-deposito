@@ -4,7 +4,9 @@
         .promo__titulo {
             background-color: $cor-section1;
             box-shadow: 1px 4px 8px 1px #fff;
-            
+            padding-bottom: 2rem;
+            border-top-left-radius: 35%;
+            border-top-right-radius: 35%;
 
                 @include mobile {
                     gap: 1rem;
@@ -15,25 +17,19 @@
                 }
         }
 
-        .img__titulo {
-            width: 12.5rem;
-
-                @include mobile {
-                    width: 8rem;
-                }
-
-                @include tablet {
-                    width: 10rem;
-                }
+        .promo__ico--animation {
+            display: flex;
+            justify-content: center;
         }
 
         .titulo {
             color: #fff;
-            font-size: 3rem;
+            font-size: 4rem;
             font-family: $fonte-titulo;
+            text-align: center;
 
                 @include mobile {
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                 }
 
                 @include tablet {
