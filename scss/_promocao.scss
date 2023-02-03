@@ -1,5 +1,4 @@
 .promocao {
-    background: linear-gradient(20deg, #E2C044, #6E8898);
 
         .promo__titulo {
             background-color: $cor-section1;
@@ -43,8 +42,8 @@
             gap: 2rem;
             justify-content: center;
             align-items: center;
-            margin-top: 3rem;
             padding: 4rem 0rem;
+            background: linear-gradient(20deg, #E2C044, #6E8898);
             
         }
 
