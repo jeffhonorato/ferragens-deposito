@@ -1,5 +1,5 @@
 .promocao {
-    background-color: #fff;
+    background: linear-gradient(20deg, #E2C044, #6E8898);
 
         .promo__titulo {
             background-color: $cor-section1;
@@ -53,7 +53,8 @@
             position: relative;
 
                 &:hover {
-                    background-color: rgba(119, 119, 119, .3);
+                    background-color: #fff;
+                    box-shadow: 2px 4px 10px #000;
                     transition: all .5s;
                 }
         }
