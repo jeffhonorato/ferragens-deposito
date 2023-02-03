@@ -2,7 +2,7 @@
     background-color: #fff;
 
         .promo__titulo {
-            @include titulo-section;
+            background-color: $cor-section1;
             box-shadow: 1px 4px 8px 1px #fff;
             
 

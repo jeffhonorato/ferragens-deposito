@@ -32,15 +32,6 @@ ul, li {
 }
 
 /* MIXINS */
-@mixin titulo-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5rem;
-    background-color: $cor-section1;
-    padding: 1rem;
-}
-
 @mixin btn-section {
     color: #fff;
     font-family: $fonte-titulo;
