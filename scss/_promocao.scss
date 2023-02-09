@@ -6,6 +6,7 @@
             padding-bottom: 2rem;
             border-top-left-radius: 35%;
             border-top-right-radius: 35%;
+            box-shadow: 7px -8px 9px 1px rgba(0,0,0,1);
 
                 @include mobile {
                     gap: 1rem;
