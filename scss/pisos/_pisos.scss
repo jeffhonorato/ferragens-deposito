@@ -66,12 +66,12 @@
             padding: 2rem 0rem;
 
                 @include mobile {
-                    gap: .1rem;
+                    gap: .4rem;
                     padding: 2rem 0.5rem;
                 }
 
                 @include tablet {
-                    gap: .1rem;
+                    gap: .4rem;
                     padding: 2rem 0.5rem;
                 }
 
@@ -80,6 +80,7 @@
 
         .menu__item {
             @include btn-section;
+            background: linear-gradient(0deg, rgba(228,100,0,1) 0%, rgba(223,221,221,1) 100%);
             
                 @include mobile {
                     font-size: 1rem;
@@ -92,10 +93,9 @@
                 &:hover {
                     box-shadow: 0px 0px 2px 1px #000;
                     background-color: #000;
-                    color: #fff;
-                    transition: .4s;
-                    border: 1px solid #fff;
-                    transform: skewY(0deg);
+                    color: #000;
+                    transition: all .4s;
+                    
                 }    
         }
 
@@ -133,7 +133,8 @@
         }
 
         .piso__item {
-            @include card-config;       
+            @include card-config;   
+
         }
 
         .piso__img {
@@ -191,7 +192,7 @@
         }
 
         .piso__link--box {
-            background-color: $cor-botoes;
+            background: linear-gradient(0deg, rgba(228,100,0,1) 0%, rgba(223,221,221,1) 100%);
             padding: .5rem;
             border-radius: 6px;
             cursor: pointer;
