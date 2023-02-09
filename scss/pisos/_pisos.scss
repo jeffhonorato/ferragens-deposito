@@ -22,7 +22,11 @@
     }
     
         .pisos__titulo {
-            
+            background-color: $cor-section1;
+            box-shadow: 1px 4px 8px 1px #fff;
+            padding-bottom: 2rem;
+            border-top-left-radius: 35%;
+            border-top-right-radius: 35%;
 
                 @include mobile {
                     gap: .5rem;
@@ -33,12 +37,9 @@
                 }
         }
 
-        .img__piso {
-            width: 12.5rem;
-
-                @include mobile {
-                    width: 7rem;
-                }
+        .pisos__ico--animation {
+            display: flex;
+            justify-content: center;
         }
 
         .titulo {

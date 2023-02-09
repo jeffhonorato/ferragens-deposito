@@ -40,7 +40,7 @@
                         <ion-icon class="nav__icone" name="layers-outline"></ion-icon>
                         <li class="nav__item">Pisos - Revestimentos</li>
                     </a>
-    
+<!--     
                     <a href="#bebidas" class="nav__link">
                         <ion-icon class="nav__icone" name="wine-outline"></ion-icon>
                         <li class="nav__item">Bebidas</li>
@@ -52,7 +52,7 @@
                     <a href="#carnes" class="nav__link">
                         <ion-icon class="nav__icone" name="fish-outline"></ion-icon>
                         <li class="nav__item">Carnes</li>
-                    </a>
+                    </a> -->
                 </ul>
             </nav>
         </div>
@@ -318,7 +318,10 @@
         <article class="pisos" id="pisos">
             
             <div class="pisos__titulo">
-                <img src="./img/alimentos/icone-piso.png" alt="Icone Piso" class="img__piso">
+                <div class="pisos__ico--animation">
+                    <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_1lvsledo.json"  background="transparent" speed="1" style="width: 360px; height: 360px;" loop autoplay></lottie-player>
+                </div>
+               
                 <h2 class="titulo">Pisos &<br> Revestimentos</h2>
             </div>
 
@@ -326,8 +329,6 @@
                 <a class="menu__item">Pisos Ceramicos</a>
                 <a class="menu__item">Porcelanato</a>
                 <a class="menu__item">Revestimentos</a>
-                <a class="menu__item">Frutas</a>
-                <a class="menu__item">Enlatados</a>
             </div>
 
             <section class="piso__box js-conteudo-alimentos">
@@ -1039,79 +1040,7 @@
                 </div>
             </section>
 
-            <section class="frutas__box js-conteudo-alimentos">
-                <h2 class="frutas__titulo">Frutas</h2>
-                <div class="frutas__cards">
 
-                    <div class="swiper frutas-box">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="fruta__item">
-                                    <img src="./img/alimentos/frutas/fruta-1.png" alt="" class="fruta__img">
-                                    <h2 class="fruta__desc">Maça - Kg</h2>
-                                    <p class="fruta__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="fruta__item">
-                                    <img src="./img/alimentos/frutas/fruta-2.png" alt="" class="fruta__img">
-                                    <h2 class="fruta__desc">Banana - Kg</h2>
-                                    <p class="fruta__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="fruta__item">
-                                    <img src="./img/alimentos/frutas/fruta-3.png" alt="" class="fruta__img">
-                                    <h2 class="fruta__desc">Goiaba - Kg</h2>
-                                    <p class="fruta__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </section>
-
-            <section class="enlatados__box js-conteudo-alimentos">
-                <h2 class="enlatados__titulo">Enlatados</h2>
-                <div class="enlatados__cards">
-
-                    <div class="swiper enlatados-box">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <div class="enlatados__item">
-                                    <img src="./img/alimentos/enlatados/enlatado-1.png" alt="" class="enlatado__img">
-                                    <h2 class="enlatado__desc">Azeitona - MarcaX</h2>
-                                    <p class="enlatado__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="enlatados__item">
-                                    <img src="./img/alimentos/enlatados/enlatado-2.png" alt="" class="enlatado__img">
-                                    <h2 class="enlatado__desc">Atum - Lata-X</h2>
-                                    <p class="enlatado__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-
-                            <div class="swiper-slide">
-                                <div class="enlatados__item">
-                                    <img src="./img/alimentos/enlatados/enlatado-3.png" alt="" class="enlatado__img">
-                                    <h2 class="enlatado__desc">Milho Verde - LataX</h2>
-                                    <p class="enlatado__preco">R$ 4,00</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </section>
         </article>
 
         <article class="bebidas" id="bebidas">
