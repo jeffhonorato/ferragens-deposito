@@ -102,14 +102,21 @@
         /***** SESSÂO PISO *****/
         .piso__box {
             padding: 3rem 0rem;
+            background: linear-gradient(20deg, #E2C044, #6E8898);
 
                 @include mobile {
                     padding: 0rem 0rem;
+                    height: 90vh;
                 }
         }
 
         .piso__titulo {
             @include card-titulo;
+
+            @include mobile {
+                padding-top: 2rem;
+            }
+            
         }
 
         .piso__cards {
