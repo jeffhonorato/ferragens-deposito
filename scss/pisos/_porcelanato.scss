@@ -65,8 +65,16 @@
     font-weight: 100;
 }
 
+
+
 .linha-divisoria {
     margin: .5rem 0rem;
+}
+
+.porcelanato__preco--div {
+    background-color: #4f4f4f;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 20%;
 }
 
 .porcelanato__preco--box {
@@ -75,19 +83,25 @@
     align-items: center;
 }
 
+.porcelanato__strong {
+    color: #fff;
+}
+
 .porcelanato__strong strong {
     font-family: $fonte-corpo;
     font-size: 2rem;
+    color: #fff;
 }
 
 .porcelanato__juros {
     padding-bottom: .5rem;
     font-family: $fonte-corpo;
     font-weight: 100;
+    color: #fff;
 }
 
 .porcelanato__link--box {
-    background-color: $cor-botoes;
+    background: linear-gradient(0deg, rgba(228,100,0,1) 0%, rgba(223,221,221,1) 100%);
     padding: .5rem;
     border-radius: 6px;
     cursor: pointer;
