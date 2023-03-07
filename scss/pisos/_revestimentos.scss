@@ -73,15 +73,21 @@
     align-items: center;
 }
 
+.revestimento__strong {
+    color: #fff;
+}
+
 .revestimento__strong strong {
     font-family: $fonte-corpo;
     font-size: 2rem;
+    color: #fff;
 }
 
 .revestimento__juros {
     padding-bottom: .5rem;
     font-family: $fonte-corpo;
     font-weight: 100;
+    color: #fff;
 }
 
 .revestimento__link--box {
