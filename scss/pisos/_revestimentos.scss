@@ -38,8 +38,6 @@
     margin-bottom: .5rem;
 }
 
-
-
 .cores__prod {
     width: 50px;
     margin-top: 0px;
@@ -63,6 +61,12 @@
     margin: .5rem 0rem;
 }
 
+.revestimento__preco--div {
+    background-color: #4f4f4f;
+    padding-bottom: 1rem;
+    border-bottom-right-radius: 20%;
+}
+
 .revestimento__preco--box {
     display: grid;
     grid-template-columns: 1fr;
@@ -81,7 +85,7 @@
 }
 
 .revestimento__link--box {
-    background-color: $cor-botoes;
+    background: linear-gradient(0deg, rgba(228,100,0,1) 0%, rgba(223,221,221,1) 100%);
     padding: .5rem;
     border-radius: 6px;
     cursor: pointer;
