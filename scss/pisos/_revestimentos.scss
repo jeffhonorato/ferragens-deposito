@@ -1,5 +1,11 @@
 .revestimento__box {
     padding: 3rem 0rem;
+    background: linear-gradient(20deg, #E2C044, #6E8898);
+
+        @include mobile {
+            padding: 0rem 0rem;
+            height: 90vh;
+        }
 }
 
 .revestimento__titulo {

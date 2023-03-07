@@ -40,13 +40,13 @@ var swiper = new Swiper(".piso-box-swiper", {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: "2",
-    loop: true,
+    slidesPerView: "4",
+    // loop: true,
     coverflowEffect: {
-      rotate: 9,
+      rotate: 1,
       stretch: 0,
       depth: 100,
-      modifier: 7,
+      modifier: 2.5,
       slideShadows: false,
     },
     navigation: {
