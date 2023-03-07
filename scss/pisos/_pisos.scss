@@ -173,6 +173,12 @@
             margin: .5rem 0rem;
         }
 
+        .piso__preco--div {
+            background-color: #4f4f4f;
+            padding-bottom: 1rem;
+            border-bottom-right-radius: 20%;
+        }
+
         .piso__preco--box {
             display: grid;
             grid-template-columns: 1fr;
@@ -180,15 +186,21 @@
 
         }
 
+        .piso__strong {
+            color: #fff;
+        }
+
         .piso__strong strong {
             font-family: $fonte-corpo;
             font-size: 2rem;
+            color: #fff;
         }
 
         .piso__juros {
             padding-bottom: .5rem;
             font-family: $fonte-corpo;
             font-weight: 100;
+            color: #fff;
         }
 
         .piso__link--box {

@@ -22,7 +22,7 @@ var swiper = new Swiper(".piso-box-swiper", {
     grabCursor: true,
     centeredSlides: true,
     slidesPerView: "4",
-    loop: true,
+    // loop: true,
     coverflowEffect: {
       rotate: 1,
       stretch: 0,
