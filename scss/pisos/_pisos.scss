@@ -1,11 +1,11 @@
 .pisos {
     background-color: $cor-background;
 
-    .js-conteudo-alimentos {
+    .js-conteudo-produtos {
         display: none;
     }
 
-    .js-conteudo-alimentos.ativo {
+    .js-conteudo-produtos.ativo {
         display: block;
         animation: show .5s forwards;
     }
