@@ -91,27 +91,40 @@
             margin-bottom: 1rem;
         }
 
+        .card__preco--div {
+            background-color: #000;
+            padding-bottom: 1rem;
+            border-bottom-right-radius: 20%;
+        }
+
         .card__preco--box {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            align-items: center;
+            align-items: end;
         }
 
         .card__preco {
             font-family: $fonte-corpo;
             font-size: 1.2rem;
             margin-bottom: 0.5rem;
-            // @include card-preco;
+            color: #fff;
+            opacity: .6;
+        }
+
+        .preco__strong {
+            color: #fff;
         }
 
         .preco__strong strong {
             font-family: $fonte-corpo;
             font-size: 2rem;
+            color: #fff;
         }
 
         .card__juros {
             margin-bottom: 1.5rem;
             font-family: $fonte-corpo;
+            color: #fff;
         }
 
         .card__link--box {
