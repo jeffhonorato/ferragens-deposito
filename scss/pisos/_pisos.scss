@@ -102,7 +102,8 @@
         /***** SESSÂO PISO *****/
         .piso__box {
             padding: 3rem 0rem;
-            background: linear-gradient(20deg, #E2C044, #6E8898);
+            background: rgb(152,152,152);
+            background: linear-gradient(90deg, rgba(152,152,152,1) 0%, rgba(226,192,68,1) 50%, rgba(152,152,152,1) 100%);
 
                 @include mobile {
                     padding: 0rem 0rem;
